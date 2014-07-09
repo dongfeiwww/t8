@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "Tinyurl",
+  "namespace": "org.apache.t8",
+  "doc": "Tinyurl data schema",
+  "fields": [
+    {
+      "name": "shortURL",
+      "type": "string",
+      "doc": "A URL after shorten"
+    },
+    {
+      "name": "origURL",
+      "type": "string",
+      "doc": "Original URL"
+    },
+    {
+      "name": "message",
+      "type": "string",
+      "doc": "Description"
+    }
+  ]
+}
